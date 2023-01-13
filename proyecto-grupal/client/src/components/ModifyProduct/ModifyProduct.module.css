@@ -1,0 +1,33 @@
+.fullDiv {
+    display: flex;
+    background-color: #0a1929;
+    color: #e7ebf0;
+    justify-content: center;
+    
+}
+.volverAtras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    min-width: 110px;
+    max-height: 40px;
+    border: 2px solid black;
+    background-color: #66bb6a;
+    border-radius: 25px;
+}
+.volverAtras:hover {
+    border: 4px solid black;
+    background-color: #25962b;
+    font-weight: bolder;
+}
+
+
+
+.fullDiv, .volverAtras, .volverAtras:hover {
+    box-sizing: unset;
+    line-height: normal;
+}
+

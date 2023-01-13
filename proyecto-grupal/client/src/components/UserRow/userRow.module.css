@@ -1,0 +1,14 @@
+.tableRowEven {
+    background-color: #010a13;
+    
+}
+.tableRowOdd {
+    background-color: #13304e;
+}
+.tableRowEven:hover {
+    background-color: #03203a;
+    
+}
+.tableRowOdd:hover {
+    background-color: #0d1f33;
+}

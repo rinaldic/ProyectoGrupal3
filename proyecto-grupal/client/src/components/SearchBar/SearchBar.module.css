@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.formSearch {
+    display: flex;
+    flex-direction: row;
+    width: 35rem;
+}
+
+.name {
+    /* padding: 7px; */
+    font-family:'Play', sans-serif; 
+    font-size: 15px;
+    height:2rem;
+    color: var(--text);
+    border-radius: 4px;
+    width: 95%;
+    margin-right: 0.3rem;
+}
+
+.name::placeholder {
+    color: var(--text);
+}
+
+.btns2:hover{
+    border: 1px solid var(--text);
+    cursor: pointer;
+}
+
+.btns2 {
+    padding: 0px 17px 0px 17px;
+    color: #fff;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    height:2.2rem;
+    background: #0c3d76b8;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 0;
+  }
+
+  .alpha {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.1rem;
+  }
+  .alpha i {
+    font-size: 1.5rem;
+  }
+  .alpha:hover {
+    color: #004ea8;
+    cursor: pointer;
+  }
+
+  .divOptions {
+    position: relative;
+    width: 99%;
+  }
+
+  .listoptions {
+    position: absolute;
+    width: 93%;
+    list-style: none;
+    background-color: #f8f9fa;
+    /* display: none;  */
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    z-index: 1;
+    transition: all 0.5s;
+    padding: 0;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .option {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.2rem;
+  }
+  .option:hover {
+    background-color: #d9e8f7;
+  }
+
+  /* Responsive CSS */
+
+@media screen and (max-width:1020px) {
+  .formSearch {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width:730px) {
+  .formSearch {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width:670px) {
+  .formSearch {
+    width: 21rem;
+  }
+  .container {
+    justify-content: flex-start;
+    margin-left: 4%;
+}
+}
+
+@media screen and (max-width:425px) {
+  .formSearch {
+    width: 100%;
+  }
+  .container {
+    justify-content: flex-start;
+    margin-left: 4%;
+}
+}

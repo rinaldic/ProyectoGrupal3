@@ -1,0 +1,88 @@
+.userNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+.userMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.userMenuLi {
+  display: inline-block;
+  position: relative;
+}
+.userMenuLi:hover .userSubMenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.userButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.userButton i {
+  font-size: 1.4rem;
+}
+.userButton span {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+}
+.userButton:hover {
+  color: #004ea8;
+  cursor: pointer;
+}
+
+.userMenuLiA {
+  display: block;
+  text-decoration: none;
+  padding: 0;
+}
+.userMenuLiA:hover {
+  transition: all 0.3s;
+}
+  
+.userSubMenu {
+  position: absolute;
+  right: 0px;
+  width: 300%;
+  list-style: none;
+  background-color: #004ea8;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 1.5s;
+  padding: 0;
+}
+
+.userSubMenuLi {
+  display: block;
+  width: 100%;
+  background-color:  #0c3d76b8;
+  padding-left: 0.3rem
+}
+  
+.userSubMenuLiA {
+  display: block;
+  text-decoration: none;
+  padding: 0rem;
+  color: white;
+  text-align: start;
+  font-size: 13px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.4rem;
+}
+.userSubMenuLiA:hover {
+  color: white;
+  font-weight: bold;
+  background-color:  #022752b8;
+}

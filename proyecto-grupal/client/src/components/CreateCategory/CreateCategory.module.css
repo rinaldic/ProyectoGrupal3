@@ -1,0 +1,97 @@
+.fullDiv {
+    display: flex;
+    background-color: #0a1929;
+    color: #e7ebf0;
+    justify-content: center;
+}
+.volverAtras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    min-width: 110px;
+    max-height: 40px;
+    border: 2px solid black;
+    background-color: #66bb6a;
+    border-radius: 25px;
+}
+.volverAtras:hover {
+    border: 4px solid black;
+    background-color: #25962b;
+    font-weight: bolder;
+}
+.mainDiv {
+    min-width: 960px;
+    max-width: 960px;
+    text-align: center;
+    align-self: center;
+}
+.errorSpan {
+    color: red;
+}
+
+.divFormTable {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.categoryForm {
+    display: flex;
+    flex-direction: column;
+}
+.labelInput {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.input {
+    width: 350px;
+    height: 20px;
+}
+.spanButton {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+.divTable {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* resetting other's styles */
+
+.fullDiv, .volverAtras, .volverAtras:hover, .mainDiv, .errorSpan, .divFormTable,
+.categoryForm, .labelInput, .input, .spanButton, .divTable  {
+    box-sizing: unset;
+    line-height: normal;
+}
+
+
+.h1 {
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.labelName {
+    margin-right: 10px;
+}

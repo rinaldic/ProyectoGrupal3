@@ -1,0 +1,140 @@
+.fullDiv {
+    display: flex;
+    background-color: #0a1929;
+    color: #e7ebf0;
+    justify-content: center;
+    
+}
+.volverAtras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    min-width: 110px;
+    max-height: 40px;
+    border: 2px solid black;
+    background-color: #66bb6a;
+    border-radius: 25px;
+}
+.volverAtras:hover {
+    border: 4px solid black;
+    background-color: #25962b;
+    font-weight: bolder;
+}
+.mainDiv {
+    min-width: 960px;
+    max-width: 960px;
+    text-align: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    min-width: 960px;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+.divInput {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+.label {
+    align-self: baseline;
+}
+.input {
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inputArea {
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.divCategories {
+    display: flex;
+    flex-direction: column;
+    
+}
+.divCategoryCreation {
+    display: flex;
+    align-items: center;
+}
+.categoryCreationLinkButton {
+    margin-left: 30px;
+}
+.divCategoriesList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.category {
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    justify-self: baseline;
+    text-align: left;
+}
+.textAlignLeft {
+    text-align: left;
+}
+.errorSpan {
+    align-self: baseline;
+    color: red;
+}
+.imageToAdd {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    /* justify-content: center; */
+    
+}
+.image {
+    min-width: 150px;
+    min-height: 150px;
+    margin-right: 15px;
+}
+.eliminar {
+    min-height: 80px;
+}
+
+
+
+/* resetting other's styles */
+
+.fullDiv, .volverAtras, .volverAtras:hover, .mainDiv, .form,
+.divInput,.label, .input, .inputArea, .divCategories,
+.divCategoryCreation, .categoryCreationLinkButton,
+.divCategoriesList, .category, .textAlignLeft, .errorSpan,
+.imageToAdd, .image, .eliminar {
+    box-sizing: unset;
+    line-height: normal;
+}
+
+.h1 {
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    line-height: normal;
+}
+
+/* .input {
+    margin: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */
+.checkbox {
+    margin: 5px;
+
+}
+.textAlignLeft {
+    margin: 16px 0px;
+}

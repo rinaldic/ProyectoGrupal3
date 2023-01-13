@@ -1,0 +1,25 @@
+.mainDiv {
+    min-width: 480px;
+    max-width: 480px;
+    min-height: 1440px;
+    text-align: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.emptyImage {
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 150px;
+    margin-bottom: 50px;
+}
+
+.h2 {
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.p {
+    font-size: large;
+}

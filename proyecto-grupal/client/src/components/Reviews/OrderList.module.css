@@ -1,0 +1,25 @@
+.general {
+        height: 100%;
+        /*width: 100%;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        caret-color: transparent;
+        background-image: linear-gradient(
+        2.6deg,
+        rgb(126, 154, 191) 16%,
+        rgb(254, 255, 255) 91.1%)
+}
+
+.boxStyle {
+        height: 100vh;
+        width: 100vh;
+        border: none;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }

@@ -1,0 +1,21 @@
+.btns0{
+    color: red;
+    font-weight: bold;
+    margin-left: 30px;
+    border-radius: 40px;
+    width: 40px;
+}
+.btns1{
+    color: green;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 40px;
+    border-radius: 40px;
+}
+.btnsSent{
+    color: blue;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 80px;
+    border-radius: 40px;
+}

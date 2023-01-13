@@ -1,0 +1,317 @@
+.divSort {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: start;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: start;
+}
+
+.userNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+.menuBar{
+  display: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif; 
+  padding: 0;
+  margin: 0;
+}
+
+.alpha {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.alpha i {
+  font-size: 1.2rem;
+}
+.alpha:hover {
+  color: #004ea8;
+  cursor: pointer;
+}
+
+
+.userButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.userButton i {
+  font-size: 1..4rem;
+}
+.userButton span {
+  margin-left: 0.2rem;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+}
+.userButton:hover {
+  color: #004ea8;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.header1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(rgb(220, 228, 227), rgb(161, 197, 202));
+  min-height: 100vh;
+  width: 100vw;
+  
+  }
+  
+.productCards {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+.logo, img {
+   height: 50px;
+   width: 50px;
+   
+}
+.logo{
+  margin-left: 12px; 
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+  caret-color: transparent;
+}
+
+.divPagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.select select {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  width: 10rem;
+  height: 2em;
+  background: #0c3d76b8;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-right: 5px;
+  border:0;
+}
+
+.btns {
+  color: #fff;
+  padding: 0px 17px 0px 17px;
+  font-family:'Poppins', sans-serif; 
+  font-size: 1em;
+  height:2rem;
+  background-color: #0c3d76b8;
+  border-radius: 4px;
+  border: none;
+  margin-right: 2rem;
+}
+.btns:hover{
+  border: 1px solid  #0c3d76b8;
+  cursor: pointer;
+}
+
+.shop{
+  user-select: none;
+  margin-right: 15px;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+ 
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-sizing: content-box;
+  color: rgb(255, 255, 255);
+  background-color: #0c3d76b8;
+}
+.topIconBag {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  background-color:  #0c3d76b8;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.userMenu {
+  list-style: none;
+}
+
+.userMenuLi {
+  display: inline-block;
+  position: relative;
+}
+
+.userMenuLi:hover .userSubMenu {
+  /* display: block; */
+  visibility: visible;
+  opacity: 1;
+}
+
+.userMenuLiA {
+  display: block;
+  text-decoration: none;
+  padding: 0;
+}
+
+.userMenuLiA:hover {
+  transition: all 0.3s;
+}
+
+.userSubMenu {
+  position: absolute;
+  width: 140%;
+  list-style: none;
+  background-color: #004ea8;
+  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 1.5s;
+  padding: 0;
+}
+
+.userSubMenuLi {
+  display: block;
+  width: 100%;
+  background-color:  #0c3d76b8;
+}
+
+.userSubMenuLiA {
+  display: block;
+  text-decoration: none;
+  padding: 0rem;
+  color: white;
+  text-align: start;
+  font-size: 13px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.4rem;
+}
+.userSubMenuLiA:hover {
+  color: white;
+  font-weight: bold;
+  background-color:  #022752b8;
+}
+
+/* .shopName {
+  display: none;
+} */
+
+/* Responsive CSS */
+
+@media screen and (max-width:768px) {
+  .menuBar{
+    display: flex;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+  }
+  .login {
+    display: none;
+  }
+  .userNav {
+    display: none;
+  }
+  .alpha i {
+    font-size: 1rem;
+  }
+  .select {
+    font-size: 1rem;
+  }
+  .header1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .shopName {
+    display: none;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .header1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    justify-content: flex-start;
+    margin-left: 1px;
+  }
+}
