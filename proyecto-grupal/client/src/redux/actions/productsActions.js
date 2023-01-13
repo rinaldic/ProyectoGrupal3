@@ -154,7 +154,6 @@ export function getReviews(id) {
         type: "GET_REVIEWS",
         payload: res.data,
       });
-      return res.data;
     } catch (error) {
       console.log(error);
     }
@@ -410,11 +409,11 @@ export function loginUser(payload) {
         payload: response.data,
       });
     } catch (error) {
-      Swal.fire({
+        Swal.fire({
         title: `${error.response.data.msg}`,
-        icon: "error",
-        confirmButtonText: "Continue",
-      });
+        icon: 'error',
+        confirmButtonText: 'Continue'
+      })
     }
   };
 }
@@ -509,20 +508,20 @@ export function resetPassword(payload) {
         payload
       );
       Swal.fire({
-        title: "Email sent!",
-        icon: "success",
-        confirmButtonText: "Continue",
-      });
+        title: 'Email sent!',
+        icon: 'success',
+        confirmButtonText: 'Continue'
+      })
       localStorage.setItem("token2", response.data.token);
       localStorage.setItem("email", response.data.mail);
-      console.log(response.data.mail);
-      console.log(response.data.token);
-    } catch (error) {
+      console.log(response.data.mail)
+      console.log(response.data.token)
+    }catch(error){
       Swal.fire({
-        title: "Invalid Email",
-        icon: "error",
-        confirmButtonText: "Continue",
-      });
+        title: 'Invalid Email',
+        icon: 'error',
+        confirmButtonText: 'Continue'
+      })
     }
   };
 }
@@ -563,6 +562,8 @@ export function getUserWishList() {
     } catch (error) {
       console.log(error);
     }
+  }
+
 }
 
 export function saveUserWishList(payload) {
