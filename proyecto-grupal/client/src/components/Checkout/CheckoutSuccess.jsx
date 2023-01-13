@@ -40,7 +40,10 @@ function CheckoutSuccess() {
   }, []);
 
   dataOrder = orders.filter((o) => o.idMp === order.idMp);
+  console.log(dataOrder);
   console.log(users);
+  console.log(user);
+  console.log(orders);
   dataUser = users.filter((u) => u.id === user.id);
  
 
