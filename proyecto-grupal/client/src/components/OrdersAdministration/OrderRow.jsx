@@ -56,13 +56,7 @@ export default function OrderRow({
       <TableCell sx={{ color: "#e7ebf0" }}>{price}</TableCell>
       <TableCell sx={{ color: "#e7ebf0" }}>{user}</TableCell>
       <TableCell sx={{ color: "#e7ebf0" }}>
-      <button
-          className={s.btns0}
-          type="submit"
-          onClick={() => handleDetailCard()}
-        >
-         More Details
-        </button>
+      
         {/* <Link to={`/orderDetails/${user}/${id}`}>More Details</Link> */}
       </TableCell>
       <TableCell sx={{ color: "#e7ebf0" }}>
