@@ -29,7 +29,7 @@ const postLoginDeploy = 'https://proyecto-grupal3.vercel.app/postLogin';
  <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <Auth0Provider domain={domain} clientId={clientID} redirectUri={ postLoginLocal } >
+        <Auth0Provider domain={domain} clientId={clientID} redirectUri={ postLoginDeploy } >
           <App />
         </Auth0Provider>
       </BrowserRouter>
